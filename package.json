@@ -1,14 +1,26 @@
 {
-  "name": "workspace",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "express-rps",
+  "version": "0.0.1",
+  "description": "RPS/RPSLS with Express",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node server.js --port=5555"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a04-kpwhit.git"
   },
   "author": "Thomas-Barry1",
-  "license": "ISC",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a04-kpwhit/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a04-kpwhit#readme",
   "dependencies": {
-    "minimist": "^1.2.8"
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "minimist": "^1.2.8",
+    "nodemon": "^2.0.22"
   }
 }
